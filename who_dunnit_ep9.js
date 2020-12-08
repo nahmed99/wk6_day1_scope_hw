@@ -3,11 +3,11 @@
 let murderer = 'Professor Plum';
 
 if (murderer === 'Professor Plum') {
-  let murderer = 'Mrs. Peacock';
+    let murderer = 'Mrs. Peacock';
 }
 
 const declareMurderer = function() {
-  return `The murderer is ${murderer}.`;
+    return `The murderer is ${murderer}.`;
 }
 
 const verdict = declareMurderer();

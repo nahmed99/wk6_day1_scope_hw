@@ -3,23 +3,23 @@
 let murderer = 'Professor Plum';
 
 const changeMurderer = function() {
-  murderer = 'Mr. Green';
+    murderer = 'Mr. Green';
 
-  const plotTwist = function() {
-    let murderer = 'Colonel Mustard';
+    const plotTwist = function() {
+        let murderer = 'Colonel Mustard';
 
-    const unexpectedOutcome = function() {
-      murderer = 'Miss Scarlet';
+        const unexpectedOutcome = function() {
+            murderer = 'Miss Scarlet';
+        }
+
+        unexpectedOutcome();
     }
 
-    unexpectedOutcome();
-  }
-
-  plotTwist();
+    plotTwist();
 }
 
 const declareMurderer = function() {
-  return `The murderer is ${murderer}.`;
+    return `The murderer is ${murderer}.`;
 }
 
 changeMurderer();
