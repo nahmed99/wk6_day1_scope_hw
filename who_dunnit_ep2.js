@@ -14,4 +14,4 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 
-//Prediction: changeMurderer should be allowed to change the value of (const) murderer
+//Prediction: changeMurderer should NOT be allowed to change the value of (const) murderer
